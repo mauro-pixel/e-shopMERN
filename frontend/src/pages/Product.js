@@ -13,7 +13,7 @@ const Product = ({ match }) => {
       setProduct(data);
     }
     fetchProduct();
-    },[]);
+    },[match]);
 
   return (
     <>
